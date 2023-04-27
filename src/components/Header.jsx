@@ -1,10 +1,18 @@
+import { Container, Row, Col } from "react-bootstrap";
 
 
 export default function Header(){
 
     return (
-        <>
-        <h1>Header</h1>
-        </>
+        <section>
+            <Container className="bg-primary">
+                <Row><img src="/images/CityScape.webp" alt="" />
+                    <Col>
+
+                    </Col>
+                </Row>
+            </Container>
+        <h1></h1>
+        </section>
     )
 }
